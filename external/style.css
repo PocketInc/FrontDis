@@ -1,0 +1,38 @@
+body {
+    user-select: none;
+}
+.console {
+    width: 50%;
+    height: 87%;
+    position: fixed;
+    user-select: text;
+    overflow: auto;
+}
+.input {
+    position: fixed;
+    bottom: 0%;
+    width: 50%;
+    height: 13%;
+    border: none;
+    outline: none;
+
+}
+.input::placeholder {
+    color: lightgrey;
+}
+.main {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    border-left: 2px solid white;
+}
+.usage {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    bottom: 0%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
